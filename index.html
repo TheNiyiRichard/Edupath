@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Marcelo Lopes, Adeniyi Adedokun, Stefano Turcarelli" />
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap"
+			rel="stylesheet" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/styles/reset.css" />
+		<link rel="stylesheet" href="./assets/styles/index.css" />
+		<link rel="stylesheet" href="./assets/styles/header.css" />
+		<link rel="stylesheet" href="./assets/styles/footer.css" />
+		<link rel="stylesheet" href="./assets/styles/mediaquery.css" />
+		<link rel="icon" href="./assets/img/favicon.png" />
+		<title>EduPath</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="container container--flex">
+				<a href="/" class="logo container--flex">
+					<img src="./assets/img/favicon.png" alt="logo" />
+					<h2>EduPath</h2>
+				</a>
+				<div class="nav-search container--flex">
+					<form class="nav-form">
+						<i class="fas fa-search"></i>
+						<input type="text" placeholder="Search" class="form-control" />
+					</form>
+					<nav>
+						<ul>
+							<li><a href="./index.html" class="active">Home</a></li>
+							<li><a href="./about-us.html">About Us</a></li>
+							<li><a href="./contact-us.html">Contact Us</a></li>
+							<li><a href="./products.html">Products</a></li>
+							<li><a href="./login.html">Login</a></li>
+						</ul>
+					</nav>
+					<div class="dropdown-container">
+						<div class="menu-button">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+								<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h24M4 16h24M4 24h24" />
+							</svg>
+						</div>
+						<div class="dropdown">
+							<ul>
+								<li><a href="./index.html" class="active">Home</a></li>
+								<li><a href="./about-us.html">About Us</a></li>
+								<li><a href="./contact-us.html">Contact Us</a></li>
+								<li><a href="./products.html">Products</a></li>
+								<li><a href="./login.html">Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="v-hero">
+				<div class="v-hero-image-inner container">
+					<div class="v-hero-content">
+						<div class="v-one v">
+							<h2 class="v-title">💡</h2>
+						</div>
+						<div class="v-two">
+							<h1 class="v-title">Study Together, Grow Together with <span class="color-it">EduPath</span> Anytime, Anywhere📚</h1>
+						</div>
+						<span
+							>1.5k expert tutors and 5k learners from <br />
+							all around the world 🌍</span
+						>
+						<div class="cat-link">
+							<a href="./register.html" class="v-cat action">Get Started</a>
+							<a href="./about-us.html" class="v-cat v-diff">More info</a>
+						</div>
+					</div>
+					<div class="v-image-content">
+						<img src="./assets/img/v-hero-image.jpg" alt="" class="img-fluid" />
+					</div>
+				</div>
+			</section>
+			<div class="content-inner">
+				<section class="description">
+					<div class="content">
+						<h3 class="title">Getting Stared</h3>
+						<span>
+							Welcome to our educational hub, a digital haven designed to foster learning and growth. Dive into a diverse range of engaging courses
+							and curated tutorials meticulously crafted to expand your knowledge and skillset. Whether you're a student looking to excel in academics
+							or a professional aiming to upskill, our platform offers tailored content to suit your needs. Immerse yourself in interactive lessons,
+							insightful resources, and real-world applications of the subjects you're passionate about. Our team of dedicated educators and industry
+							experts ensure that you receive top-notch guidance and support throughout your learning journey. Ready to embrace a world of endless
+							learning possibilities? Click the button below to take the first step towards a brighter, more knowledgeable future.
+						</span>
+					</div>
+					<div class="v-image">
+						<img src="./assets/img/girl-reading-in-library.jpg" alt="" class="img-fluid" />
+					</div>
+					<div>
+						<a href="./register.html" class="cat">Register Now</a>
+					</div>
+				</section>
+				<section class="container products-grid">
+					<div class="section-title-container">
+						<h2 class="v-title">Our Products</h2>
+					</div>
+					<div class="products-container">
+						<div class="product">
+							<div class="product-container">
+								<img src="https://freedesignfile.com/upload/2017/01/Classroom-learning-children-HD-picture-02.jpg" alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 1</h2>
+								<p>$ 49,90</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img src="https://freedesignfile.com/upload/2017/01/Classroom-learning-children-HD-picture-03.jpg" alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 2</h2>
+								<p>$ 39.90</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="https://media.istockphoto.com/id/1163544226/photo/young-woman-teacher-teaches-primary-school-girl.jpg?s=612x612&w=0&k=20&c=SFpaZEBS4sllP4BhEPhG-gMQPhlXsGK6AGXsKsGAgS4="
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 3</h2>
+								<p>$ 99.90</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="https://img.freepik.com/premium-photo/vintage-books-stack-dark-background_771335-25720.jpg?size=626&ext=jpg"
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 4</h2>
+								<p>$ 35.90</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="https://media.istockphoto.com/id/1033164844/photo/mother-helping-teenager-with-homework.jpg?s=612x612&w=0&k=20&c=Hqj4JFw7wYfMwHvTICG5HpXnoNl07zMBJPuWmfdkqPo="
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 5</h2>
+								<p>$ 84</p>
+								<button>Buy</button>
+							</div>
+						</div>
+
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="https://img.freepik.com/premium-photo/miniature-books-orange-cover-fly-blue-background_460171-1364.jpg?size=626&ext=jpg"
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 6</h2>
+								<p>$ 100.00</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="https://img.freepik.com/free-photo/stack-books-yellow-background-education-concept-3d-rendering_56104-1337.jpg?size=626&ext=jpg"
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 7</h2>
+								<p>$ 100.00</p>
+								<button>Buy</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product-container">
+								<img
+									src="assets/img/ai-generated-8365483_1280.webp"
+									alt="product" />
+							</div>
+							<div class="product-detail">
+								<div class="star">
+									<span>Star value</span>
+									<i class="fas fa-star"></i>
+								</div>
+								<h2>Product 8</h2>
+								<p>$ 96.00</p>
+								<button>Buy</button>
+							</div>
+						</div>
+					</div>
+					<div class="v-see-more">
+						<a href="./products.html" class="cat">See More Products</a>
+					</div>
+				</section>
+				<section class="v-special-sales-card">
+					<div class="section-title-container">
+						<h2 class="v-title">Product Pricing</h2>
+					</div>
+					<div class="v-card-container">
+						<div class="v-special-card">
+							<div class="v-special-card-inner">
+								<span class="v-top-text"> Basic Plan </span>
+								<h1 class="v-price">$60/<small>month</small></h1>
+								<ul>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Can access some videos</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Question and Answer</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-xmark"></i>
+										<span class="v-p">Video Discussion</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-xmark"></i>
+										<span class="v-p">Departmental Counseling</span>
+									</li>
+								</ul>
+								<div class="link">
+									<a href="" class="cat unavailable" s>Continue to membership</a>
+								</div>
+							</div>
+						</div>
+						<div class="v-special-card">
+							<div class="v-special-card-inner">
+								<span class="v-top-text"> Favourite Plan </span>
+								<h1 class="v-price">$60/<small>month</small></h1>
+								<ul>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Can access some videos</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Question and Answer</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Video Discussion</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Live assessment</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">50 practice questions given</span>
+									</li>
+								</ul>
+								<div class="link">
+									<a href="" class="cat available">Continue to membership</a>
+								</div>
+							</div>
+						</div>
+						<div class="v-special-card">
+							<div class="v-special-card-inner">
+								<span class="v-top-text"> Standard Plan </span>
+								<h1 class="v-price">$60/<small>month</small></h1>
+								<ul>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Can access some videos</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Question and Answer</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Video Discussion</span>
+									</li>
+									<li class="v-list-item">
+										<i class="fa-solid fa-check"></i>
+										<span class="v-p">Departmental Counseling</span>
+									</li>
+								</ul>
+								<div class="link">
+									<a href="" class="cat unavailable" s>Continue to membership</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="gallery-image">
+					<div class="section-title-container">
+						<h2 class="v-title">Our Gallery</h2>
+					</div>
+					<div class="v-grid-gallery">
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/children-in-class.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/children-in-class-two.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/children-in-class-three.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/group-of-students-studying-together.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/group-study-five.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/group-study-three.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/group-study-four.jpg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+						<!-- each image @::start -->
+						<div class="gallery-image">
+							<img src="./assets/img/group-study-one.jpeg" alt="" class="img-fluid" />
+						</div>
+						<!-- each image @::end -->
+					</div>
+				</section>
+				<section class="about">
+					<div class="section-title-container">
+						<h2 class="v-title">About Us</h2>
+					</div>
+					<div class="grid-container">
+						<div class="image-container">
+							<img src="./assets/img/students-reading.jpg" alt="" class="img-fluid" />
+						</div>
+						<div class="v-content">
+							<span class="v-sm-text">Who We Are</span>
+							<h2 class="title">What our students say about us</h2>
+							<span class="subcontent">
+								This educational web platform has been a game-changer for my learning journey. The range of courses available is remarkable, covering
+								topics that align perfectly with my academic and career goals. The interactive lessons and expert instructors have made complex
+								subjects feel digestible and enjoyable.
+							</span>
+							<div class="v-student-detail">
+								<div class="v-profile-image">
+									<img src="./assets/img/user-two.jfif" alt="" class="img-fluid" />
+								</div>
+								<div class="v-profile-name">
+									<span class="v-name">Sam Smith</span>
+									<span class="v-po">Student</span>
+								</div>
+							</div>
+							<div class="read-more">
+								<a href="./about-us.html" class="cat">Read more</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="team">
+					<div class="title-container">
+						<span>Our Team</span>
+						<h2 class="title">The best tutors in town</h2>
+						<span>Meet the mentors inspiring your educational journey and helping you succeed.</span>
+					</div>
+					<div class="grid-tutors">
+						<div class="grid-container">
+							<div class="each-tutor">
+								<div class="image-container">
+									<img src="./assets/img/tutor-one.png" alt="" class="img-fluid" />
+								</div>
+								<div class="tutor-detail">
+									<h4 class="tutor-name">James Bay</h4>
+									<span class="tutor-course">English Language</span>
+								</div>
+							</div>
+							<div class="each-tutor">
+								<div class="image-container">
+									<img src="./assets/img/tutor-two.jpeg" alt="" class="img-fluid" />
+								</div>
+								<div class="tutor-detail">
+									<h4 class="tutor-name">Janet Depp</h4>
+									<span class="tutor-course">Algebra</span>
+								</div>
+							</div>
+							<div class="each-tutor">
+								<div class="image-container">
+									<img src="./assets/img/tutor-three.webp" alt="" class="img-fluid" />
+								</div>
+								<div class="tutor-detail">
+									<h4 class="tutor-name">Angelina Jolie</h4>
+									<span class="tutor-course">Science</span>
+								</div>
+							</div>
+						</div>
+						<div class="cat">
+							<a href="./register.html" class="cat">Start Your Learning Journey</a>
+						</div>
+					</div>
+				</section>
+				<section class="bottom-hero">
+					<div class="bg-layer-image">
+						<img src="./assets/img/students-image-teacher.jpeg" alt="" class="img-fluid" />
+					</div>
+					<div class="hero-content">
+						<h1 class="title">Embark on a World of Infinite Possibilities: Your Learning Journey Begins Here</h1>
+						<span>Explore, Discover, and Create in a Learning Wonderland</span>
+						<div class="cat-container"><a href="./register.html" class="cat">Get started</a></div>
+					</div>
+				</section>
+				<section class="more-info">
+					<div class="banner">
+						<h2 class="title">Want more information ?</h2>
+						<a href="./contact-us.html"> Contact Us</a>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="container container--flex">
+				<div class="ft-links">
+					<a href="#">
+						<div class="icon-container">
+							<i class="fab fa-facebook-f"></i>
+						</div>
+					</a>
+					<a href="#">
+						<div class="icon-container">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</a>
+					<a href="#">
+						<div class="icon-container">
+							<i class="fab fa-twitter"></i>
+						</div>
+					</a>
+					<a href="#">
+						<div class="icon-container">
+							<i class="fab fa-github"></i>
+						</div>
+					</a>
+				</div>
+				<div class="ft-copyright">
+					<p>© 2023 EduPath. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
