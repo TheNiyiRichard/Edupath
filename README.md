@@ -11,7 +11,7 @@ This is an educational products website aimed at providing a platform for studen
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js(Backend part of the project not uploaded on git hub yet-still working)
+- **Backend:** C# .Net Framework, .NetCore, SQL server management(Backend part of the project not uploaded on git hub yet-still working)
 
 
 ## Usage
@@ -23,5 +23,5 @@ This is an educational products website aimed at providing a platform for studen
 Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or submit a pull request.
 
 ## Demo
-Click [Here]()
+Click [Here](https://theniyirichard.github.io/Edupath/)
 
